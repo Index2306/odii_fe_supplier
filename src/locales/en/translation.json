@@ -1,0 +1,28 @@
+{
+  "title": "welcome",
+  "auth": {
+    "signin": "signin",
+    "signup": "signup",
+    "password": "password",
+    "newpassword": "newpassword",
+    "oldpassword": "oldpassword",
+    "username": "username",
+    "firstname": "firstname",
+    "lastname": "lastname",
+    "back": "back",
+    "phone": "phone",
+    "forgotpass": "Forgot Password",
+    "sendpass": "Send Password",
+    "changepass": "Change Password",
+    "products": {
+      "title": "Manager Products"
+    },
+    "categories": {
+      "title": "Manager Categories"
+    },
+    "employees": {
+      "title": "Manager Employees"
+    }
+  },
+  "warehouse": "Kho hàng"
+}

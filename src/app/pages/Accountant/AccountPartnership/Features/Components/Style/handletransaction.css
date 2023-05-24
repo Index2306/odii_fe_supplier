@@ -1,0 +1,10 @@
+@import '~antd/dist/antd.css';
+
+.ant-modal-content {
+    width: 540px;
+    border-radius: 6px;
+  }
+  
+  .ant-modal-header {
+    border-radius: 6px;
+  }

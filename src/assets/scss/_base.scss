@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Roboto';
+  font-size: $font-default;
+  line-height: $line-height;
+}
+
+.odii {
+  &-input {
+    font-size: $font-default;
+    line-height: $line-height;
+    padding: $spacer/1.5 $spacer;
+    border-radius: $radius;
+    border: solid 1px $light-gray;
+
+    .ant-input {
+      &-prefix,
+      &-suffix {
+        height: $font-default * $line-height;
+        width: $font-default * $line-height;
+        justify-content: center;
+        color: $gray-blue;
+      }
+
+      &-password-icon {
+        color: $gray-blue;
+      }
+    }
+  }
+
+  &-selector {
+    width: 100%;
+
+    & .ant-select-selector {
+      padding: $spacer/1.5 $spacer !important;
+      height: auto !important;
+      border-radius: $radius !important;
+      border: solid 1px $light-gray !important;
+
+      &:after {
+        line-height: $line-height !important;
+      }
+    }
+
+    & .ant-select-selection-placeholder {
+      line-height: $line-height !important;
+    }
+
+    & .ant-select-selection-item {
+      line-height: $line-height !important;
+    }
+  }
+
+  &-form {
+    &-item {
+      //   margin-bottom: $spacer;
+    }
+
+    &-dual {
+      display: flex;
+
+      &-item {
+        flex: 1;
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    &-label {
+      font-weight: 500;
+      margin-bottom: $spacer/2;
+    }
+    &-label-required {
+      &::after {
+        display: inline-block;
+        margin-left: 4px;
+        color: #ff4d4f;
+        font-size: 18px;
+        font-family: SimSun, sans-serif;
+        line-height: 1;
+        content: '*';
+      }
+    }
+  }
+}

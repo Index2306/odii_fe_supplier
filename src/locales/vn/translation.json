@@ -1,0 +1,364 @@
+{
+  "Home": "Trang chủ",
+  "title": "Chào bạn!",
+  "dashboard": {
+    "title": "Tổng quan",
+    "news": "Tin tức",
+    "userManual": "Video hướng dẫn",
+    "supports": "Trung tâm hỗ trợ"
+  },
+  "auth": {
+    "signin": "Đăng nhập",
+    "signup": "Đăng ký",
+    "forgotpass": "Quên mật khẩu",
+    "sendpass": "Gửi mật khẩu",
+    "changepass": "Đổi mật khẩu",
+    "username": "Họ Tên",
+    "firstname": "Tên",
+    "lastname": "Họ",
+    "phone": "Số Điện thoại",
+    "password": "Mật khẩu",
+    "newpassword": "Mật khẩu mới",
+    "oldpassword": "Mật khẩu cũ",
+    "confirmpassword": "Xác nhận mật khẩu",
+    "back": "Quay lại"
+  },
+  "user": {
+    "user": "Người dùng",
+    "supplier": "Nhà cung cấp",
+    "seller": "Nhà bán hàng",
+    "adminitrator": "Quản trị viên",
+    "active": "Đang hoạt động",
+    "inactive": "Không hoạt động",
+    "disabled": "Bất hoạt",
+    "keyword": "Từ khóa",
+    "userType": "Nhóm người dùng",
+    "userRoles": "Vai trò",
+    "status": "Trạng thái",
+    "search": "Tìm kiếm",
+    "no": "STT",
+    "avatar": "Avatar",
+    "avatarOf": "Hình đại diện của ",
+    "fullname": "Họ tên",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "list": "Danh sách người dùng",
+    "edit": "Cập nhật thông tin người dùng",
+    "id": "ID",
+    "firstName": "Tên",
+    "lastName": "Họ",
+    "update": "Cập nhật",
+    "adminList": "Danh sách quản trị viên",
+    "birthday": "Ngày sinh",
+    "reload": "Tải lại",
+    "error": "Có lỗi xảy ra",
+    "save": "Lưu",
+    "profile": "Profile",
+    "items": "bản ghi",
+    "of": "trên tổng",
+    "all": "Tất cả",
+    "allCountry": "Tất cả quốc gia",
+    "allStatus": "Tất cả trạng thái",
+    "nation": "Quốc gia",
+    "province": "Tỉnh thành",
+    "first_name": "Tên",
+    "last_name": "Họ",
+    "gender": "Giới tính",
+    "male": "Nam",
+    "female": "Nữ",
+    "none": "Khác",
+    "other": "Khác",
+    "null": "",
+    "created_at": "Ngày tạo tài khoản",
+    "accountType": "Loại tài khoản",
+    "country": "Quốc gia",
+    "upload_image_guide": "Upload file PNG, JPG, tối đa 10MB",
+    "uploadImage": "Chọn ảnh",
+    "primaryAccount": "Tài khoản chính",
+    "secondaryAccount": "Tài khoản phụ",
+    "transactionTime": "Thời điểm giao dịch",
+    "moneyAmount": "Số tiền",
+    "balance": "Số dư",
+    "transactionContent": "Nội dung",
+    "storeId": "ID cửa hàng",
+    "storeName": "Tên cửa hàng",
+    "platform": "Nền tảng",
+    "month": "Tháng",
+    "created": "Khởi tạo",
+    "succeeded": "Hoàn thành",
+    "cancel": "Hủy bỏ",
+    "placeholder": {
+      "selectStatus": "Chọn trạng thái",
+      "selectCountry": "Chọn quốc gia",
+      "selectProvince": "Chọn tỉnh thành",
+      "searchKeyword": "Từ khóa tìm kiếm"
+    },
+    "validate": {
+      "firstName": "Tên là bắt buộc",
+      "lastName": "Họ là bắt buộc",
+      "phone1": "Số điện thoại là bắt buộc",
+      "phone2": "Số điện thoại là kiểu số",
+      "passwordRequired": "Mật khẩu là bắt buộc",
+      "emailValidate": "Email không hợp lệ",
+      "emailRequired": "Email là bắt buộc"
+    },
+    "detail": {
+      "detail": "Chi tiết người dùng",
+      "accountInfo": "Thông tin tài khoản",
+      "balanceInfo": "Thông tin số dư",
+      "storeInfo": "Thông tin cửa hàng",
+      "active": "Đang hoạt động",
+      "inactive": "Không hoạt động"
+    },
+    "admin": {
+      "create": "Tạo nhân viên",
+      "employee": "Nhân viên",
+      "manager": "Quản lý",
+      "setting": "Cài đặt chung",
+      "manage-item": "Quản lý danh mục",
+      "list": "Danh sách nhân viên",
+      "profile": "Thông tin",
+      "permission": "Phân quyền",
+      "position": "Cấp bậc",
+      "allPosition": "Tất cả cấp bậc",
+      "createUser": "Thêm nhân viên",
+      "edit": {
+        "role": {
+          "update": "Cập nhật vai trò",
+          "title": "Tên vai trò",
+          "description": "Nhiệm vụ",
+          "keyword": "Tìm kiếm vai trò",
+          "link": "Vai trò"
+        },
+        "permission": {
+          "link": "Quyền"
+        }
+      }
+    }
+  },
+  "product": {
+    "list": "Danh sách sản phẩm",
+    "detail": "Chi tiết sản phẩm",
+    "update": "Cập nhật sản phẩm"
+  },
+  "order": {
+    "list": "Danh sách đơn hàng",
+    "detail": "Chi tiết đơn hàng",
+    "update": "Cập nhật đơn hàng"
+  },
+  "report": {
+    "list": "Báo cáo & phân tích",
+    "detail": "Phân tích báo cáo",
+    "update": "Cập nhật báo cáo"
+  },
+  "transaction": {
+    "list": "Danh sách giao dịch",
+    "detail": "Chi tiết giao dịch",
+    "verify": "Xác nhận giao dịch"
+  },
+  "category": {
+    "list": "Danh sách phân loại",
+    "detail": "Chi tiết phân loại",
+    "update": "Cập nhật phân loại",
+    "create": "Tạo phân loại"
+  },
+  "mywallet": {
+    "title": "Ví của tôi",
+    "list": "Lịch sử giao dịch",
+    "detail": "Chi tiết giao dịch",
+    "deposit": "Nạp tiền vào tài khoản",
+    "withdrawal": "Rút tiền về tài khoản",
+    "action_type": {
+      "deposit": "Nạp tiền vào tài khoản",
+      "withdrawal": "Rút tiền về tài khoản",
+      "seller_deposit": "Nạp tiền vào tài khoản",
+      "supplier_deposit": "Nạp tiền vào tài khoản",
+      "seller_withdrawal": "Rút tiền về tài khoản",
+      "supplier_withdrawal": "Rút tiền về tài khoản",
+      "seller_confirmed_order": "Thanh toán đơn hàng",
+      "supplier_confirmed_order": "Cung cấp đơn hàng",
+      "seller_get_refund": "Hoàn tiền đơn hàng",
+      "supplier_fulfill_fail": "Hoàn tiền cung cấp",
+      "confirmed_order": "Thanh toán đơn hàng"
+    },
+    "transaction": {
+      "type": "Hình thức",
+      "bank": "Chuyển khoản ngân hàng",
+      "momo": "Momo",
+      "cardvisit": "quốc tế",
+      "wallet": "Ví điện tử",
+      "cash": "Chuyển tiền mặt",
+      "atm": "Thẻ ATM nội địa",
+      "deposit": "Nạp tiền",
+      "withdrawal": "Rút tiền",
+      "debt": "Công nợ",
+      "null": ""
+    }
+  },
+  "accountant": {
+    "debtOverview": "Tổng quan công nợ",
+    "listDeposit": "Yêu cầu nạp tiền",
+    "listWithdrawal": "Yêu cầu rút tiền",
+    "detailPeriod": "Chi tiết chu kỳ",
+    "UserDebtDetail": "Danh sách giao dịch",
+    "detail": "Chi tiết giao dịch",
+    "confirmStatus": {
+      "undefined": "",
+      "null": "",
+      "created": "Khởi tạo",
+      "pending": "Đang chờ",
+      "chief_accountant_confirm": "Kế toán trưởng đã duyệt",
+      "accountant_confirm": "Kế toán viên đã duyệt",
+      "chief_accountant_confirmed": "Kế toán trưởng đã duyệt",
+      "accountant_confirmed": "Kế toán viên đã duyệt",
+      "chief_accountant_rejected": "Kế toán trưởng đã từ chối",
+      "accountant_rejected": "Kế toán viên đã từ chối",
+      "seller_confirmed": "Chờ thanh toán"
+    },
+    "affiliate": {
+      "title": "Tổng quan đối tác Affiliate",
+      "topPartnerAffiliate": "Top hoa hồng đối tác",
+      "payoutPartnership": "Thanh toán đối tác"
+    },
+    "partnership": {
+      "title": "Tổng quan Affiliate",
+      "listorder": "Danh sách đơn hàng",
+      "detail": "Chi tiết thanh toán hoa hồng"
+    },
+    "titleHistoryTransaction": {
+      "deposit": {
+        "created": "Khởi tạo yêu cầu nạp tiền",
+        "pending": "Yêu cầu nạp tiền đang chờ xử lý",
+        "succeeded": "Yêu cầu nạp tiền đã được phê duyệt",
+        "failed": "Yêu cầu nạp tiền đã bị từ chối",
+        "reject": "Yêu cầu nạp tiền đã bị từ chối",
+        "chief_accountant_confirm": "Yêu cầu nạp tiền đã được Kế toán trưởng duyệt thành công",
+        "accountant_confirm": "Yêu cầu nạp tiền đã được Kế toán viên duyệt thành công",
+        "chief_accountant_confirmed": "Yêu cầu nạp tiền đã được Kế toán trưởng duyệt thành công",
+        "accountant_confirmed": "Yêu cầu nạp tiền đã được Kế toán viên duyệt thành công",
+        "chief_accountant_rejected": "Yêu cầu nạp tiền đã bị Kế toán trưởng từ chối",
+        "accountant_rejected": "Yêu cầu nạp tiền đã bị Kế toán viên từ chối"
+      },
+      "withdrawal": {
+        "created": "Khởi tạo yêu cầu rút tiền",
+        "pending": "Yêu cầu rút tiền đang chờ xử lý",
+        "succeeded": "Yêu cầu rút tiền đã được phê duyệt",
+        "failed": "Yêu cầu rút tiền đã bị từ chối",
+        "reject": "Yêu cầu rút tiền đã bị từ chối",
+        "chief_accountant_confirm": "Yêu cầu rút tiền đã được Kế toán trưởng duyệt thành công",
+        "accountant_confirm": "Yêu cầu rút tiền đã được Kế toán viên duyệt thành công",
+        "chief_accountant_confirmed": "Yêu cầu rút tiền đã được Kế toán trưởng duyệt thành công",
+        "accountant_confirmed": "Yêu cầu rút tiền đã được Kế toán viên duyệt thành công",
+        "chief_accountant_rejected": "Yêu cầu rút tiền đã bị Kế toán trưởng từ chối",
+        "accountant_rejected": "Yêu cầu rút tiền đã bị Kế toán viên từ chối"
+      },
+      "debt": {
+        "created": "Khởi tạo giao dịch công nợ",
+        "pending": "Giao dịch công nợ đang chờ xử lý",
+        "succeeded": "Giao dịch công nợ đã được phê duyệt",
+        "failed": "Giao dịch công nợ đã bị từ chối",
+        "reject": "Giao dịch công nợ đã bị từ chối",
+        "chief_accountant_confirm": "Giao dịch công nợ đã được Kế toán trưởng duyệt thành công",
+        "accountant_confirm": "Giao dịch công nợ đã được Kế toán viên duyệt thành công",
+        "chief_accountant_confirmed": "Giao dịch công nợ đã được Kế toán trưởng duyệt thành công",
+        "accountant_confirmed": "Giao dịch công nợ đã được Kế toán viên duyệt thành công",
+        "chief_accountant_rejected": "Giao dịch công nợ đã bị Kế toán trưởng từ chối",
+        "accountant_rejected": "Giao dịch công nợ đã bị Kế toán viên từ chối"
+      }
+    },
+    "type_transaction": {
+      "confirmed_order": "Chi phí CC",
+      "supplier_confirmed_order": "Chi phí CC",
+      "seller_confirmed_order": "Chi phí CC",
+      "seller_get_refund": "Hoàn tiền CC",
+      "deposit": "Nạp tiền",
+      "withdrawal": "Rút tiền",
+      "fee": "Phí"
+    }
+  },
+  "revenue": {
+    "title": "Tổng quan doanh thu",
+    "list": "Danh sách giao dịch",
+    "detail": "Chi tiết giao dịch",
+    "wait_for_pay": "Chờ thanh toán",
+    "pending_for_pay": "Đang được thanh toán",
+    "paid_rêcnly": "Đã thanh toán gần đây",
+    "deposit": "Nạp tiền vào tài khoản",
+    "withdrawal": "Rút tiền về tài khoản",
+    "action_type": {
+      "seller_deposit": "Nạp tiền vào tài khoản",
+      "supplier_deposit": "Nạp tiền vào tài khoản",
+      "seller_withdrawal": "Rút tiền về tài khoản",
+      "supplier_withdrawal": "Rút tiền về tài khoản",
+      "seller_confirmed_order": "Thanh toán đơn hàng",
+      "supplier_confirmed_order": "Cung cấp đơn hàng",
+      "seller_get_refund": "Hoàn tiền đơn hàng",
+      "supplier_fulfill_fail": "Hoàn tiền cung cấp"
+    },
+    "transaction": {
+      "type": "Hình thức",
+      "bank": "Chuyển khoản ngân hàng",
+      "momo": "Momo",
+      "cardvisit": "quốc tế",
+      "wallet": "Ví điện tử",
+      "cash": "Chuyển tiền mặt",
+      "atm": "Thẻ ATM nội địa",
+      "deposit": "Nạp tiền",
+      "withdrawal": "Rút tiền",
+      "debt": "Công nợ",
+      "null": ""
+    }
+  },
+  "myprofile": {
+    "title": "Tài khoản",
+    "info": " Thông tin của bạn"
+  },
+  "infobusiness": {
+    "title": "Doanh nghiệp",
+    "info": " Thông tin doanh nghiệp"
+  },
+  "employee": {
+    "list": "Danh sách nhân viên",
+    "info": " Thông tin nhân viên"
+  },
+  "products": {
+    "title": "Sản phẩm"
+  },
+  "categories": {
+    "title": "QUẢN LÝ DANH MỤC"
+  },
+  "employees": {
+    "title": "NHÂN VIÊN"
+  },
+  "promotion": {
+    "list": "Danh sách khuyến mại",
+    "title": "KHUYẾN MẠI",
+    "detail": "Chi tiết khuyến mại"
+  },
+  "distribution": {
+    "list": "Phân bổ sản phẩm",
+    "title": "Phân bổ sản phẩm",
+    "detail": "Chi tiết phân bổ"
+  },
+  "logistics": {
+    "import": {
+      "list": "Nhập kho",
+      "title": "Nhập kho",
+      "detail": "Chi tiết nhập kho"
+    },
+    "export": {
+      "list": "Xuất kho",
+      "title": "Xuất kho",
+      "detail": "Chi tiết xuất kho"
+    }
+  },
+  "warehouse": {
+    "title": "Kho hàng"
+  },
+  "incoming": {
+    "title": "incoming"
+  },
+  "source_product": {
+    "title": "Nguồn hàng"
+  }
+}

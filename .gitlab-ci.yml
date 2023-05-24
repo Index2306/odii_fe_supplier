@@ -1,0 +1,91 @@
+stages:
+  - build
+  - deploy
+
+deploy-development:
+  stage: deploy
+  image: node:14-alpine
+  tags:
+    - tesop
+  before_script:
+    - apk add openssh-client rsync bash
+  script:
+    - echo "Start building App"
+    - yarn install
+    - cat .env.develop > .env
+    - CI=false yarn run build || { exit 1;}
+    - echo "Build successfully!"
+  after_script:
+    - eval $(ssh-agent -s)
+    - bash -c "ssh-add <(echo '$KEY')"
+    - rsync -e "ssh -o StrictHostKeyChecking=no" -avz --no-perms --no-owner --no-group --delete build/ root@supplier-odii.ligo.vn:/var/www/supplier-odii.ligo.vn/htdocs/
+  artifacts:
+    expire_in: 3 days
+    paths:
+      - build
+  only:
+    - develop
+
+deploy-prod:
+  stage: deploy
+  image: node:14-alpine
+  tags:
+    - tesop  
+  before_script:
+    - apk add openssh-client rsync bash
+  script:
+    - echo "Start building App"
+    - yarn install
+    - cat .env.production > .env
+    - CI=false yarn run build || { exit 1;}
+    - echo "Build successfully!"
+  after_script:
+    - eval $(ssh-agent -s)
+    - bash -c "ssh-add <(echo '$KEY_PROD')"
+    - rsync -e "ssh -o StrictHostKeyChecking=no" -avz --no-perms --no-owner --no-group --delete build/ ubuntu@deploy.odii.asia:/var/www/supplier.odii.asia/
+  only:
+    - main
+
+deploy-dev-tenant:
+  stage: deploy
+  image: node:14-alpine
+  tags:
+    - tesop  
+  before_script:
+    - apk add openssh-client rsync bash
+  script:
+    - echo "Start building App"
+    - yarn install
+    - cat .env.develop.tenant > .env
+    - CI=false yarn run build || { exit 1;}
+    - echo "Build successfully!"
+  after_script:
+    - eval $(ssh-agent -s)
+    - bash -c "ssh-add <(echo '$KEY')"
+    - rsync -e "ssh -o StrictHostKeyChecking=no" -avz --no-perms --no-owner --no-group --delete build/ root@app-odii.ligo.vn:/var/www/tenant/supplier-dev2.odii.vn/
+  artifacts:
+    expire_in: 3 days
+    paths:
+      - build
+  rules:
+  - if: $CI_COMMIT_BRANCH == "ci-tenant"
+
+deploy-prod-tenant:
+  stage: deploy
+  image: node:14-alpine
+  tags:
+    - tesop  
+  before_script:
+    - apk add openssh-client rsync bash
+  script:
+    - echo "Start building App"
+    - yarn install
+    - cat .env.production.tenant > .env
+    - CI=false yarn run build || { exit 1;}
+    - echo "Build successfully!"
+  after_script:
+    - eval $(ssh-agent -s)
+    - bash -c "ssh-add <(echo '$KEY_PROD')"
+    - rsync -e "ssh -o StrictHostKeyChecking=no" -avz --no-perms --no-owner --no-group --delete build/ ubuntu@deploy.odii.asia:/var/www/tenant/supplier.odii.asia/
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^supplier*/i

@@ -1,0 +1,20 @@
+@import '../../variables';
+
+.page-action-dropdown {
+  min-width: 150px !important;
+  color: $primary;
+  border-radius: 4px;
+  .ant-select-item {
+    color: $primary;
+    .ant-select-item-option-content {
+      i {
+        font-size: 12px;
+        min-width: 14px;
+        margin-right: 8px;
+      }
+    }
+  }
+  .ant-select-item:last-child {
+    color: #eb5757;
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "server": "psql.odii.xyz",
+      "port": 5432,
+      "driver": "PostgreSQL",
+      "name": "odii",
+      "database": "odii_dev",
+      "username": "odii_rw",
+      "password": "f1DdCYTf7SpngBC4"
+    }
+  ]
+}
